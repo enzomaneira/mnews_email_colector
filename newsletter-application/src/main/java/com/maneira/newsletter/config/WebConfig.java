@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://3.90.201.215:3000") // ou "*" se quiser liberar geral (menos seguro)
+                        .allowedOrigins("http://54.90.103.191:3000")  // Atualize para o novo IP do frontend
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
